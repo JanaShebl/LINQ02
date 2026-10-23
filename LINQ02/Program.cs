@@ -43,9 +43,19 @@
 
             #region Q5
 
-            int[] ids = { 3, 9, 13, 18 };
-            var result = ids.Contains(9);
-            Console.WriteLine(result);
+            //int[] ids = { 3, 9, 13, 18 };
+            //var result = ids.Contains(9);
+            //Console.WriteLine(result);
+
+            #endregion
+
+            #region Q6
+
+            var result = Source.ProductList.GroupBy(p=>p.Category).Select(x=>new {category=x.Key, count=x.Count()});
+            foreach (var item in result)
+            {
+                Console.WriteLine($"{item.category} has {item.count} products");
+            }
 
             #endregion
         }
