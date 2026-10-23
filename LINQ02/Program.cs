@@ -89,10 +89,15 @@
             //var result = from c in Source.CustomerList
             //             group c by c.Country into x
             //             select new { country = x.Key, count = x.Count(), total = x.Sum(cus => cus.Orders.Sum(s => s.Total)) };
-            
+
             #endregion
 
+            #region Q10
 
+            //var result = Source.ProductList.Sum(p => p.UnitsInStock);
+            //Console.WriteLine(result);
+
+            #endregion
         }
     }
 }
