@@ -73,6 +73,16 @@
             //}
 
             #endregion
+
+            #region Q8
+
+            //var result = Source.ProductList.GroupBy(p => p.Category).Where(x => x.Count() > 3).Select(rs => rs.Key);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
         }
     }
 }
