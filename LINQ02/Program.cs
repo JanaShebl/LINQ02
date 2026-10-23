@@ -51,11 +51,26 @@
 
             #region Q6
 
-            var result = Source.ProductList.GroupBy(p=>p.Category).Select(x=>new {category=x.Key, count=x.Count()});
-            foreach (var item in result)
-            {
-                Console.WriteLine($"{item.category} has {item.count} products");
-            }
+            //var result = Source.ProductList.GroupBy(p=>p.Category).Select(x=>new {category=x.Key, count=x.Count()});
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"{item.category} has {item.count} products");
+            //}
+
+            #endregion
+
+            #region Q7
+
+            //var result = Source.ProductList.GroupBy(p => p.Category,p=>p.ProductName).Select(x => new {category=x.Key, products=x.ToList()});
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"{item.category} has {item.products.Count} products");
+            //    foreach (var product in item.products)
+            //    {
+            //        Console.WriteLine($"  {product}");
+            //    }
+            //    Console.WriteLine("=============================================================");
+            //}
 
             #endregion
         }
