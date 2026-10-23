@@ -13,6 +13,16 @@
             //}
 
             #endregion
+
+            #region Q2
+
+            //var result = Source.ProductList.Skip(5).Take(5);
+            //foreach (var product in result)
+            //{
+            //    Console.WriteLine(product);
+            //}
+
+            #endregion
         }
     }
 }
