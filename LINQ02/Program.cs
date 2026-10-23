@@ -98,6 +98,15 @@
             //Console.WriteLine(result);
 
             #endregion
+
+            #region Q11
+
+            //var expensive = Source.ProductList.Max(p => p.UnitPrice);
+            //var cheap = Source.ProductList.Min(p => p.UnitPrice);
+            //Console.WriteLine(expensive);
+            //Console.WriteLine(cheap);
+
+            #endregion
         }
     }
 }
