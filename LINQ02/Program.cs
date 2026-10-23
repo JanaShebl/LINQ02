@@ -23,6 +23,16 @@
             //}
 
             #endregion
+
+            #region Q3
+
+            var result = Source.ProductList.TakeWhile(p => p.UnitPrice < 25);
+            foreach (var product in result)
+            {
+                Console.WriteLine(product);
+            }
+
+            #endregion
         }
     }
 }
