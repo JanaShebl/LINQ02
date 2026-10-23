@@ -26,11 +26,18 @@
 
             #region Q3
 
-            var result = Source.ProductList.TakeWhile(p => p.UnitPrice < 25);
-            foreach (var product in result)
-            {
-                Console.WriteLine(product);
-            }
+            //var result = Source.ProductList.TakeWhile(p => p.UnitPrice < 25);
+            //foreach (var product in result)
+            //{
+            //    Console.WriteLine(product);
+            //}
+
+            #endregion
+
+            #region Q4
+
+            // var result = Source.ProductList.Where(p=>p.Category== "Seafood").All(p => p.UnitsInStock > 0);
+            //Console.WriteLine(result);
 
             #endregion
         }
