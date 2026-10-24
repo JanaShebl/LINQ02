@@ -136,6 +136,12 @@
             //var rs = Source.ProductList.First(p => p.UnitPrice > 50);
 
             #endregion
+
+            #region Q17
+
+            //var rs = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+
+            #endregion
         }
     }
 }
