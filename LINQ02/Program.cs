@@ -130,6 +130,12 @@
             //    var p = dict[18];
 
             #endregion
+
+            #region Q16
+
+            //var rs = Source.ProductList.First(p => p.UnitPrice > 50);
+
+            #endregion
         }
     }
 }
