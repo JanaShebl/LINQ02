@@ -156,6 +156,10 @@
             //                .Where(x => x % 2 == 0);
 
             #endregion
+
+            #region Q19.20
+
+            #endregion
         }
     }
 }
