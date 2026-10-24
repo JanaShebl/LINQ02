@@ -149,6 +149,13 @@
             //             .Select(i => 7 * i);
 
             #endregion
+
+            #region Q19
+
+            //var rs = Enumerable.Range(1, 30)
+            //                .Where(x => x % 2 == 0);
+
+            #endregion
         }
     }
 }
