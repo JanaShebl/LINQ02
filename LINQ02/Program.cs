@@ -124,7 +124,12 @@
 
             #endregion
 
+            #region Q15
 
+            //var dict = Source.ProductList.ToDictionary(p => p.ProductID);
+            //    var p = dict[18];
+
+            #endregion
         }
     }
 }
